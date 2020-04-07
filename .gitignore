@@ -20,3 +20,4 @@ jdbc.properties
 */.settings/*
 .mvn/**
 *mvn
+./target
