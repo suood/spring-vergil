@@ -1,23 +1,40 @@
-*~
-*.#*
-*#*#
-*.swp
-*.ipr
-*.iml
-*.iws
-*.pyc
-*.pyo
-.idea/
-.idea_modules/
-*/target/
-*generatorConfig.xml
-output/*
-*.log
-jdbc.properties
-.DS_Store
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
-*/.settings/*
-.mvn/**
-*mvn
-./target
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+.idea/*
+*.iws
+*.iml
+*.ipr
+shopify-mvp-order.iml
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+<<<<<<< HEAD
+### OS ###
+*~
+.DS_Store
+
+### Mybatis ###
+generator.properties
+generatorConfig.xml
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+.idea/
+*.log
+/bak-domain/*
+/log/*
