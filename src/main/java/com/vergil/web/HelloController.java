@@ -13,6 +13,7 @@ public class HelloController {
 
     @Autowired
     private HelloService helloService;
+    @Autowired
     private CalculateService calculateService;
 
     @GetMapping("/hello")
